@@ -17,6 +17,8 @@ use Yiisoft\Test\Support\EventDispatcher\SimpleEventDispatcher;
 use Yiisoft\View\WebView;
 use Yiisoft\Yii\View\Renderer\ViewRenderer;
 
+use function dirname;
+
 final class ConfigTest extends TestCase
 {
     public function testDiWeb(): void

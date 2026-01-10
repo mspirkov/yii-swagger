@@ -29,7 +29,7 @@ return [
         $params = $params['yiisoft/yii-swagger'];
         $swaggerJson = new SwaggerJson($cache, $responseFactory, $swaggerService);
 
-        if (array_key_exists('cacheTTL', $params)) {
+        if (\array_key_exists('cacheTTL', $params)) {
             $swaggerJson = $swaggerJson->withCache($params['cacheTTL']);
         }
 

@@ -8,6 +8,8 @@ use OpenApi\Analysis;
 use OpenApi\Annotations as OA;
 use OpenApi\Generator;
 
+use function is_array;
+
 final class GeneratorStub extends Generator
 {
     /** @var array<int,string> */
