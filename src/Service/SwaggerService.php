@@ -17,6 +17,7 @@ use Yiisoft\Aliases\Aliases;
 use function array_map;
 use function dirname;
 use function sprintf;
+use function is_array;
 
 final class SwaggerService
 {

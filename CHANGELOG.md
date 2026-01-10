@@ -10,6 +10,7 @@
 - Enh #120: Add ability to provide `OpenApi\Generator` to `SwaggerService` via constructor (@rustamwin)
 - Chg #120: Remove support of `doctrine/annotations` by default (@rustamwin)
 - Enh #121: Add support for PHP version `8.4` (@rustamwin)
+- Enh #122: Explicitly import functions in "use" section (@mspirkov)
 
 ## 2.2.0 January 27, 2025
 
